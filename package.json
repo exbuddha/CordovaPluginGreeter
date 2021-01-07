@@ -1,0 +1,25 @@
+{
+  "name": "CordovaPluginGreeter",
+  "version": "1.0.0",
+  "description": "This plugin greets someone by name.",
+  "cordova": {
+    "id": "CordovaPluginGreeter",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exbuddha/cordova-plugin-greeter.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Alireza Kamran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exbuddha/cordova-plugin-greeter/issues"
+  },
+  "homepage": "https://github.com/exbuddha/cordova-plugin-greeter#readme"
+}
