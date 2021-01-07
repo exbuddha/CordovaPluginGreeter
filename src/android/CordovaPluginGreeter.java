@@ -15,12 +15,11 @@ public class CordovaPluginGreeter extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("greet")) {
             String name = args.getString(0);
-            if (name != null && name.length() > 0) {
+            if (name != null && name.length() > 0)
                 callbackContext.success("Greetings, " + name + "!");
-                return true;
-            }
             else
-                return callbackContext.error("Name must be non-null and non-empty.");
+                callbackContext.error("Name must be non-null and non-empty.");
+            return true;
         }
         return false;
     }
